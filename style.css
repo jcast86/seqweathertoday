@@ -1,0 +1,44 @@
+header {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    background-color: steelblue;
+    padding: 10px;
+}
+
+.topnav {
+    background-color: #2d2d2d;
+    overflow: hidden;
+    text-align: center;
+}
+
+.topnav a {
+    float: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.topnav a:hover {
+    background-color: lightgray;
+    color: black
+}
+
+a.active {
+    background-color: lightsalmon;
+    color: black;
+}
+
+body {
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+button {
+    background-color: darkgray;
+}
